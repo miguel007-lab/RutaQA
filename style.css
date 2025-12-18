@@ -1,0 +1,70 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f7fa;
+  color: #2a2a2a;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+
+h1 {
+  color: #003366;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #005fa3;
+  margin-top: 0;
+  font-size: 1.5em;
+}
+
+.fase {
+  border-left: 6px solid #005fa3;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 25px 0;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+}
+
+.fase:hover {
+  transform: scale(1.01);
+}
+
+/* ===== COLORES POR FASE ===== */
+
+.fase1 { background-color: #e3f2fd; border-left-color: #1e88e5; }
+.fase2 { background-color: #fffde7; border-left-color: #fbc02d; }
+.fase3 { background-color: #e8f5e9; border-left-color: #43a047; }
+.fase4 { background-color: #fce4ec; border-left-color: #d81b60; }
+.fase5 { background-color: #ede7f6; border-left-color: #5e35b1; }
+.fase6 { background-color: #fff3e0; border-left-color: #fb8c00; }
+
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #0073e6;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.btn:hover {
+  background: #005bb5;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+p strong {
+  color: #1c4e80;
+}
